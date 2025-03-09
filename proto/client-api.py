@@ -14,7 +14,7 @@ model = models.detection.maskrcnn_resnet50_fpn(weights=models.detection.MaskRCNN
 model.eval()
 
 # Загружаем категории COCO
-with open("../ data/coco_categories.json", "r") as f:
+with open("../data/coco_categories.json", "r") as f:
     COCO_CATEGORIES = json.load(f)
 
 # Трансформация изображения
