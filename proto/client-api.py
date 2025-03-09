@@ -1,7 +1,7 @@
 import grpc
 from concurrent import futures
-import tests.inference_pb2 as inference_pb2
-import tests.inference_pb2_grpc as inference_pb2_grpc
+import inference_pb2
+import inference_pb2_grpc
 import requests
 import torch
 import io

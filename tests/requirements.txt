@@ -6,6 +6,7 @@ pillow
 prometheus_client
 prometheus_flask_exporter
 pytest
+pytest-order
 grpcio
 grpcio-tools
 furl
