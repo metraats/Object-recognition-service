@@ -1,0 +1,12 @@
+flask
+torch
+torchvision
+requests
+pillow
+prometheus_client
+prometheus_flask_exporter
+pytest
+grpcio
+grpcio-tools
+furl
+protobuf
